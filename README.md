@@ -44,7 +44,10 @@ export default class Component extends React.Component {
             input={
               keyboardType:'numeric',
               placeholder:'some text',
-              maxLength: 5
+              maxLength: 5,
+              style: {
+                fontSize: 48
+              }
             }
             submitButton={
               text:'OK',
