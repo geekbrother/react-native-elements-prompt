@@ -6,12 +6,16 @@ Open modal with input field, based on react native elements.
 ![alt Demo](https://github.com/geekbrother/react-native-elements-prompt/blob/master/demo.gif)
 
 ## Installation:
+NPM installation.
+
 ```
 npm install --save react-native-elements-prompt
 ```
 
 
 ## Usage:
+How to use it in a react-native component:
+
 ```js
 import React from 'react';
 import { View } from 'react-native';
