@@ -36,6 +36,7 @@ export default class Component extends React.Component {
           />
           <Prompt
             visible={this.state.showPrompt}
+            animationType='slide'
             title={
               text:'Input something',
               color:'grey'
