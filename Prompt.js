@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { View, ViewPropTypes, Modal, TextInput, StyleSheet } from 'react-native';
+import { View, TextPropTypes, Modal, TextInput } from 'react-native';
 import { Button, Text } from 'react-native-elements';
 
 export default class Prompt extends React.Component {
@@ -78,7 +78,7 @@ Prompt.propTypes = {
     ),
     title: PropTypes.shape({
         text: PropTypes.string,
-        style: ViewPropTypes.style
+        style: TextPropTypes.style
     }),
     input: PropTypes.shape({
         keyboardType: PropTypes.oneOf(
@@ -93,7 +93,7 @@ Prompt.propTypes = {
         ), 
         placeholder: PropTypes.string,
         maxLength: PropTypes.number,
-        style: ViewPropTypes.style
+        style: TextPropTypes.style
     }),
     submitButton: PropTypes.shape({
         text: PropTypes.string,
