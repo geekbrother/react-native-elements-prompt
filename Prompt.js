@@ -1,7 +1,6 @@
 import React from 'react';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 import { View, ViewPropTypes, Modal, TextInput, StyleSheet } from 'react-native';
-
 import { Button, Text } from 'react-native-elements';
 
 export default class Prompt extends React.Component {

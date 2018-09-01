@@ -25,9 +25,12 @@
     "url": "https://github.com/geekbrother/react-native-elements-prompt/issues"
   },
   "homepage": "https://github.com/geekbrother/react-native-elements-prompt#readme",
-  "dependencies": {
-    "prop-types": "^15.6.2",
+  "devDependencies": {
     "react": "^16.4.2",
-    "react-native": "^0.56.0"
+    "react-native": "^0.56.0",
+    "react-native-elements": "^0.19.1"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.2"
   }
 }
