@@ -1,8 +1,9 @@
 # Prompt input component for react elements.
 Open modal with input field based on react native elements.
 
-Demo:
+
 ![alt Demo](https://github.com/geekbrother/react-native-elements-prompt/blob/master/demo.gif)
+
 
 Usage:
 ```js
