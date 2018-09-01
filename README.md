@@ -39,7 +39,9 @@ export default class Component extends React.Component {
             animationType='slide'
             title={
               text:'Input something',
-              color:'grey'
+              style: {
+                color:'grey'
+              }
             }
             input={
               keyboardType:'numeric',
