@@ -26,14 +26,15 @@ export default class Component extends React.Component {
         showPrompt: true
       })
     }
+    _hidePrompt = () => {
+      this.setState({
+        showPrompt: false
+      })
+    }
     
   render() {
       return (
         <View>
-          <Button
-            title='Show Prompt'
-            onPress={ this._showPrompt }
-          />
           <Prompt
             visible={this.state.showPrompt}
             animationType='slide'
@@ -59,7 +60,12 @@ export default class Component extends React.Component {
               text:'Cancel'
               color:'red'
             }}
-            onSubmit={this._onPromptSubmit}
+            onSubmit={ this._onPromptSubmit }
+            onCancel={ this._hidePrompt }
+          />
+          <Button
+            title='Show Prompt'
+            onPress={ this._showPrompt }
           />
         </View>
       )
