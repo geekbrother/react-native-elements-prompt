@@ -1,0 +1,33 @@
+{
+  "name": "react-native-elements-prompt",
+  "version": "1.0.0",
+  "description": "Prompt input component for react elements.",
+  "main": "Prompt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geekbrother/react-native-elements-prompt.git"
+  },
+  "keywords": [
+    "react",
+    "react",
+    "native",
+    "elements",
+    "prompt",
+    "modal",
+    "input"
+  ],
+  "author": "Kalashnikov Maksym",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/geekbrother/react-native-elements-prompt/issues"
+  },
+  "homepage": "https://github.com/geekbrother/react-native-elements-prompt#readme",
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-native": "^0.56.0"
+  }
+}
