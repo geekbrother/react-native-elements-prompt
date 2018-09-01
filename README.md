@@ -37,28 +37,28 @@ export default class Component extends React.Component {
           <Prompt
             visible={this.state.showPrompt}
             animationType='slide'
-            title={
+            title={{
               text:'Input something',
               style: {
                 color:'grey'
               }
-            }
-            input={
+            }}
+            input={{
               keyboardType:'numeric',
               placeholder:'some text',
               maxLength: 5,
               style: {
                 fontSize: 48
               }
-            }
-            submitButton={
+            }}
+            submitButton={{
               text:'OK',
               color:'orange'
-            }
-            cancelButton={
+            }}
+            cancelButton={{
               text:'Cancel'
               color:'red'
-            }
+            }}
             onSubmit={this._onPromptSubmit}
           />
         </View>
