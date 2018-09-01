@@ -16,7 +16,7 @@ npm install --save react-native-elements-prompt
 import React from 'react';
 import { View } from 'react-native';
 import { Button } from 'react-native-elements';
-import { Prompt } from 'react-native-elements-prompt';
+import Prompt from 'react-native-elements-prompt';
 
 export default class Component extends React.Component {
 
