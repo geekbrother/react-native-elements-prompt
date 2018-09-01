@@ -86,3 +86,9 @@ export default class Component extends React.Component {
    }
 }
 ```
+
+## Props:
+Required props:
+    - visible: bool
+    - onSubmit: func( inputValue )
+    - onCancel: func()
