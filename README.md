@@ -1,5 +1,5 @@
-# Prompt input component for react native elements.
-Open modal with input field, based on react native elements.
+# React native prompt.
+Open prompt modal with input field, based on react native elements.
 
 ## Demo:
 
