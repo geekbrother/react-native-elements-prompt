@@ -60,7 +60,7 @@ export default class Component extends React.Component {
     
   render() {
       return (
-        <View>
+        <View>  
           <Prompt
             visible={this.state.showPrompt}
             animationType='slide'
@@ -88,11 +88,11 @@ export default class Component extends React.Component {
             }}
             onSubmit={ this._onPromptSubmit }
             onCancel={ this._hidePrompt }
-          />
+          />  
           <Button
             title='Show Prompt'
             onPress={ this._showPrompt }
-          />
+          />   
         </View>
       )
    }
