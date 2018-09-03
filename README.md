@@ -1,5 +1,8 @@
 # React native prompt.
-Open prompt modal with input field, based on react native elements.
+[![npm version](https://badge.fury.io/js/react-native-elements-prompt.svg)](https://badge.fury.io/js/react-native-elements-prompt)  
+
+### Open prompt modal with input field component.  
+Based on react native elements buttons.
 
 ## Demo:
 
