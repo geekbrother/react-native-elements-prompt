@@ -1,6 +1,6 @@
 {
   "name": "react-native-elements-prompt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Prompt input component for react elements.",
   "main": "Prompt.js",
   "scripts": {
