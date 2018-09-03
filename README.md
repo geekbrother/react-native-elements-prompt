@@ -13,6 +13,14 @@ npm install --save react-native-elements-prompt
 ```
 
 
+## Props:
+Required props:
+* visible: bool
+* onSubmit: func( inputValue )
+* onCancel: func()
+Optional props:
+// TODO
+
 ## Usage:
 How to use it in a react-native component:
 
@@ -86,9 +94,3 @@ export default class Component extends React.Component {
    }
 }
 ```
-
-## Props:
-Required props:
-* visible: bool
-* onSubmit: func( inputValue )
-* onCancel: func()
