@@ -3,7 +3,7 @@ Open prompt modal with input field, based on react native elements.
 
 ## Demo:
 
-![alt Demo](https://github.com/geekbrother/react-native-elements-prompt/blob/master/demo.gif)
+![alt Demo](https://github.com/geekbrother/react-native-elements-prompt/raw/master/demo.gif)
 
 ## Installation:
 NPM installation.
@@ -18,8 +18,9 @@ Required props:
 * visible: bool
 * onSubmit: func( inputValue )
 * onCancel: func()
+
 Optional props:
-// TODO
+ * Full list of props, see in example. // TODO: add list of optional props to Readme.
 
 ## Usage:
 How to use it in a react-native component:
